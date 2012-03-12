@@ -19,7 +19,7 @@ module Ebay
                     })
       body = "<?xml version='1.0' encoding='utf-8'?>" + body
       @response = RestClient.post service, body, headers
-      NokoSabi.new(Nokogiri::XML(@response))
+      self.doc
     end
     
     def doc
