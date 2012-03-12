@@ -4,7 +4,7 @@ module Ebay
       body = "<GeteBayTimeRequest xmlns='urn:ebay:apis:eBLBaseComponents'></GeteBayTimeRequest>"
       headers = {'X-EBAY-API-CALL-NAME' => 'GeteBayTime', 'X-EBAY-API-REQUEST-ENCODING' => 'XML'}
       t = self.get(body, headers)
-      Time.parse(t.Timestamp)
+      Time.parse(t.GeteBayTimeResponse.Timestamp)
     end
   end
 end
