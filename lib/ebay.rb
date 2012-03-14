@@ -1,8 +1,4 @@
 module Ebay
-  if defined?(ENV['GEM_DEVELOPMENT'])
-    require 'rest-client'
-    require 'nokogiri'
-  end
   
   if defined?(RAILS_ENV)
     EBAY_CONFIG = YAML.load(File.read("#{RAILS_ROOT}/config/ebay.yml"))[RAILS_ENV]    
