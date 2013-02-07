@@ -10,7 +10,7 @@ class NokoSabi
       return a.text
     end    
     if @root.children.map(&:name).include? method.to_s
-      inner_doc = @root>method.to_s
+      inner_doc = @root.css(method.to_s)
       if @root.children.size > 1 && @root.children.map(&:name).uniq.size ==1
         return inner_doc.map{|d| NokoSabi.new(d)}
       end

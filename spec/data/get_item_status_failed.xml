@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <GetItemStatusResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+   <ns1:Ack xmlns:ns1="urn:ebay:apis:eBLBaseComponents">Failure</ns1:Ack>
+   <ns2:Errors xmlns:ns2="urn:ebay:apis:eBLBaseComponents">
+    <ns2:ShortMessage>Input data is invalid.</ns2:ShortMessage>
+    <ns2:LongMessage>Input data for the given tag is invalid or missing. Please check API documentation.</ns2:LongMessage>
+    <ns2:ErrorCode>1.22</ns2:ErrorCode>
+    <ns2:SeverityCode>Error</ns2:SeverityCode>
+    <ns2:ErrorParameters ParamID="0">
+     <ns2:Value>XML document structures must start and end within the same entity.</ns2:Value>
+    </ns2:ErrorParameters>
+    <ns2:ErrorClassification>RequestError</ns2:ErrorClassification>
+   </ns2:Errors>
+   <ns3:Build xmlns:ns3="urn:ebay:apis:eBLBaseComponents">E809_CORE_BUNDLED_15734399_R1</ns3:Build>
+   <ns4:Version xmlns:ns4="urn:ebay:apis:eBLBaseComponents">809</ns4:Version>
+  </GetItemStatusResponse>
+
+
