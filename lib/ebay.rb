@@ -8,7 +8,7 @@ module Ebay
   if defined?(RAILS_ENV)
     EBAY_CONFIG = YAML.load(File.read("#{RAILS_ROOT}/config/ebay.yml"))[RAILS_ENV]
   elsif defined?(Rails)
-    EBAY_CONFIG = YAML.load(File.read("#{RAILS_ROOT}/config/ebay.yml"))[Rails.env]
+    EBAY_CONFIG = YAML.load(File.read(Rails.root.join("/config/ebay.yml")))[Rails.env]
   else
     EBAY_CONFIG = YAML.load(File.read("config/ebay.yml"))
   end
