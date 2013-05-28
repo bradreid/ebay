@@ -6,7 +6,6 @@ module Ebay
 
 
     def get_item(item)
-
       body = <<-eos
                 <GetSingleItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
                 <ItemID>#{item}</ItemID>
@@ -53,7 +52,7 @@ module Ebay
                  'X-EBAY-SOA-OPERATION-NAME' => 'findItemsByCategory',
                  'X-EBAY-SOA-SERVICE-VERSION' => '1.11.0',
                  'X-EBAY-SOA-GLOBAL-ID' => 'EBAY-US',
-                 'X-EBAY-SOA-SECURITY-APPNAME' => Ebay::EBAY_CONFIG['eBay']['AppID'],
+                 'X-EBAY-SOA-SECURITY-APPNAME' => Ebay.config['AppID'],
                  'X-EBAY-SOA-REQUEST-DATA-FORMAT' => 'XML'
       }
       r = self.get(body, headers, 'http://svcs.ebay.com/services/search/FindingService/v1?')

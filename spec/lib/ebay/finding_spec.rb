@@ -7,7 +7,7 @@ describe Ebay::Finding do
 
   context '#get_item_status' do
     it 'should not blow up when the request fails' do
-      FakeWeb.register_uri(:post,  'http://open.api.ebay.com/shopping?', body: Ebay.root + '/spec/data/get_item_status_failed.xml')
+      FakeWeb.register_uri(:post,  'http://open.api.ebay.com/shopping', body: Ebay.root.join('spec/data/get_item_status_failed.xml'))
       @ebay.get_item_status(10).should == :failure
     end
   end

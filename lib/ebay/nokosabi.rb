@@ -1,14 +1,14 @@
 class NokoSabi 
   attr_accessor :root
-  
+
   def initialize(nokogiri_doc)
     @root = nokogiri_doc
   end
-  
+
   def method_missing(method, *args, &block)
     if a = @root.attr(method.to_s)
       return a.text
-    end    
+    end
     if @root.children.map(&:name).include? method.to_s
       inner_doc = @root.css(method.to_s)
       if @root.children.size > 1 && @root.children.map(&:name).uniq.size ==1
@@ -29,8 +29,8 @@ class NokoSabi
       return NokoSabi.new(inner_doc)
     end
     return nil
-  end  
-  
+  end
+
   def m
     @root.children.map(&:name).sort
   end

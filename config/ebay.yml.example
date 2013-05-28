@@ -1,0 +1,21 @@
+
+# Without Rails
+
+DEVID: test
+AppID: test
+CertID: test
+endpoint: http://open.api.ebay.com/shopping
+
+# With Rails
+
+development:
+  DEVID: test
+  AppID: test
+  CertID: test
+  endpoint: http://open.api.ebay.com/shopping
+production:
+  DEVID: test
+  AppID: test
+  CertID: test
+  endpoint: http://open.api.ebay.com/shopping
+

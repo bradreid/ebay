@@ -1,0 +1,5 @@
+DEVID: test_dev_id
+AppID: test_app_id
+CertID: test_cert_id
+endpoint: http://open.api.ebay.com/shopping
+
