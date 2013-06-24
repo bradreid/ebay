@@ -11,6 +11,17 @@ describe Ebay::Finding do
       result = @ebay.find_items_by_category
       result.map(&:itemId).should == ["221244024846", "261229157049"]
     end
+    it 'should fetch all items when results are paginated' do
+      pending
+    end
+  end
+
+  context '#get_item' do
+    it 'should fetch a single item' do
+      FakeWeb.register_uri(:post,  'http://open.api.ebay.com/shopping', body: Ebay.root.join('spec/data/ebay_find_item.xml'))
+      result = @ebay.get_item '221244024846'
+      result.Title.should == 'Powered Paraglider & Lifetime Free Training Nationwide!'
+    end
   end
 
   context '#get_item_status' do
