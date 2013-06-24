@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<findItemsByCategoryResponse xmlns="http://www.ebay.com/marketplace/search/v1/services">
+   <ack>Success</ack>
+   <version>1.12.0</version>
+   <timestamp>2013-06-24T01:42:57.746Z</timestamp>
+   <searchResult count="81">
+      <item>
+         <itemId>221244024846</itemId>
+         <title>Powered Paraglider &amp; Lifetime Free Training Nationwide!</title>
+         <globalId>EBAY-MOTOR</globalId>
+         <primaryCategory>
+            <categoryId>63722</categoryId>
+            <categoryName>Ultralights</categoryName>
+         </primaryCategory>
+         <galleryURL>http://thumbs3.ebaystatic.com/m/mjalDC2FOJDJ7lR9UnqBJtQ/140.jpg</galleryURL>
+         <viewItemURL>http://www.ebay.com/itm/Powered-Paraglider-Lifetime-Free-Training-Nationwide-/221244024846?pt=Motors_Aircraft</viewItemURL>
+         <paymentMethod>MOCC</paymentMethod>
+         <paymentMethod>CashInPerson</paymentMethod>
+         <autoPay>false</autoPay>
+         <postalCode>44087</postalCode>
+         <location>Twinsburg,OH,USA</location>
+         <country>US</country>
+         <shippingInfo>
+            <shippingType>NotSpecified</shippingType>
+            <shipToLocations>US</shipToLocations>
+            <expeditedShipping>false</expeditedShipping>
+            <oneDayShippingAvailable>false</oneDayShippingAvailable>
+         </shippingInfo>
+         <sellingStatus>
+            <currentPrice currencyId="USD">8800.0</currentPrice>
+            <convertedCurrentPrice currencyId="USD">8800.0</convertedCurrentPrice>
+            <bidCount>0</bidCount>
+            <sellingState>Active</sellingState>
+            <timeLeft>P4DT15H35M3S</timeLeft>
+         </sellingStatus>
+         <listingInfo>
+            <bestOfferEnabled>false</bestOfferEnabled>
+            <buyItNowAvailable>false</buyItNowAvailable>
+            <startTime>2013-06-21T17:18:00.000Z</startTime>
+            <endTime>2013-06-28T17:18:00.000Z</endTime>
+            <listingType>Auction</listingType>
+            <gift>false</gift>
+         </listingInfo>
+         <returnsAccepted>false</returnsAccepted>
+         <isMultiVariationListing>false</isMultiVariationListing>
+         <pictureURLLarge>http://i.ebayimg.com/00/s/NzY3WDgwMA==/$(KGrHqRHJEkFBb(!olR1BQ,OKdP0v!~~60_1.JPG</pictureURLLarge>
+         <topRatedListing>false</topRatedListing>
+      </item>
+      <item>
+         <itemId>261229157049</itemId>
+         <title>KR2S Project with Corvair Engine</title>
+         <globalId>EBAY-MOTOR</globalId>
+         <primaryCategory>
+            <categoryId>63679</categoryId>
+            <categoryName>Project/Experimental Aircraft</categoryName>
+         </primaryCategory>
+         <galleryURL>http://thumbs2.ebaystatic.com/m/mWKjDl6ifvlKE4dfRLztdzA/140.jpg</galleryURL>
+         <viewItemURL>http://www.ebay.com/itm/KR2S-Project-Corvair-Engine-/261229157049?pt=Motors_Aircraft</viewItemURL>
+         <paymentMethod>MOCC</paymentMethod>
+         <paymentMethod>PersonalCheck</paymentMethod>
+         <paymentMethod>PaymentSeeDescription</paymentMethod>
+         <paymentMethod>CashInPerson</paymentMethod>
+         <autoPay>false</autoPay>
+         <postalCode>03047</postalCode>
+         <location>Greenfield,NH,USA</location>
+         <country>US</country>
+         <shippingInfo>
+            <shippingType>NotSpecified</shippingType>
+            <shipToLocations>US</shipToLocations>
+            <expeditedShipping>false</expeditedShipping>
+            <oneDayShippingAvailable>false</oneDayShippingAvailable>
+         </shippingInfo>
+         <sellingStatus>
+            <currentPrice currencyId="USD">4500.0</currentPrice>
+            <convertedCurrentPrice currencyId="USD">4500.0</convertedCurrentPrice>
+            <bidCount>0</bidCount>
+            <sellingState>Active</sellingState>
+            <timeLeft>P4DT15H45M41S</timeLeft>
+         </sellingStatus>
+         <listingInfo>
+            <bestOfferEnabled>false</bestOfferEnabled>
+            <buyItNowAvailable>false</buyItNowAvailable>
+            <startTime>2013-06-21T17:28:38.000Z</startTime>
+            <endTime>2013-06-28T17:28:38.000Z</endTime>
+            <listingType>Auction</listingType>
+            <gift>false</gift>
+         </listingInfo>
+         <returnsAccepted>false</returnsAccepted>
+         <condition>
+            <conditionId>1000</conditionId>
+            <conditionDisplayName>New</conditionDisplayName>
+         </condition>
+         <isMultiVariationListing>false</isMultiVariationListing>
+         <pictureURLLarge>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/aLMAAOxy2YtRtyUW/$(KGrHqEOKpIFGuoW)Ss!BRtyUWQDGw~~60_1.JPG</pictureURLLarge>
+         <topRatedListing>false</topRatedListing>
+      </item>
+   </searchResult>
+   <paginationOutput>
+      <pageNumber>1</pageNumber>
+      <entriesPerPage>100</entriesPerPage>
+      <totalPages>1</totalPages>
+      <totalEntries>2</totalEntries>
+   </paginationOutput>
+   <itemSearchURL>http://www.ebay.com/sch/63676/i.html?_ddo=1&amp;_ipg=100&amp;_os=PL%7CD&amp;_pgn=2&amp;_sop=1</itemSearchURL>
+</findItemsByCategoryResponse>
